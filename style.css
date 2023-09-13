@@ -1,0 +1,79 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+body{
+    background-color: #007aff;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+}
+nav img{
+    margin-top: 40px;
+    margin-left: 50px;
+    height: 60px;
+}
+nav .navright{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 45%;  
+    margin-right: 80px; 
+}
+nav .navright a{
+    text-decoration: none;
+    color: white;
+
+}
+nav a{
+    width: 130px;
+    
+    height: 30px;
+    border-radius: 30px;
+    /* background-color: black; */
+    text-align: center;
+    padding: 10px 20px 0px;
+    text-wrap: nowrap;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+nav a:hover{
+    background-color: #77b9ff;
+}
+nav .navright .signin{
+    background-color: #ee626b;
+}
+.home .image{
+    width: 400px;
+    height: 500px;
+    border-radius: 50px;
+    background-image: url(http://127.0.0.1:5501/templatemo_589_lugx_gaming/templatemo_589_lugx_gaming/assets/images/banner-image.jpg);
+}
+.home{
+    width: 80%;
+    margin: 110px 10% 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.home .info{
+    width: 50%;
+}
+.home .info .welcome{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 100px;
+}
+.home .info h1{
+    font-size: 45px;
+    margin-top: 10px;
+}
+
+
+
