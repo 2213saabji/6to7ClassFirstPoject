@@ -6,13 +6,19 @@
     color: white;
 }
 body{
-    background-color: #007aff;
+    background-color: white;
+    height: 200vh;
 }
 
 nav{
     display: flex;
     justify-content: space-between;
     /* border: 2px solid black; */
+}
+main{
+    background-color: #007aff;
+    border-radius: 0px 0px 150px 150px;
+    height: 900px;
 }
 nav img{
     margin-top: 40px;
@@ -29,7 +35,7 @@ nav .navright{
 nav .navright a{
     text-decoration: none;
     color: white;
-
+    
 }
 nav a{
     width: 130px;
@@ -50,20 +56,22 @@ nav a:hover{
 nav .navright .signin{
     background-color: #ee626b;
 }
-.home .image{
-    width: 400px;
-    height: 500px;
-    border-radius: 50px;
-    background-image: url(http://127.0.0.1:5501/templatemo_589_lugx_gaming/templatemo_589_lugx_gaming/assets/images/banner-image.jpg);
-}
 .home{
+    /* border: 2px solid black; */
     width: 80%;
     margin: 110px 10% 0px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 .home .info{
+    /* border: 2px solid red; */
     width: 50%;
+}
+.home .info p{
+    font-size: 13px;
+    line-height: 2;
+    margin-top: 5px;
 }
 .home .info .welcome{
     font-size: 20px;
@@ -73,6 +81,107 @@ nav .navright .signin{
 .home .info h1{
     font-size: 45px;
     margin-top: 10px;
+}
+.home .info .input{
+    margin-top: 70px;
+    background-color: white;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;  
+    border-radius: 30px;
+    
+}
+.home .info input{
+    border-radius: 30px;
+    /* border: 2px solid black; */
+    width: 70%;
+    border: none;
+}
+.home .info input::placeholder{
+    padding-left: 30px;
+}
+
+.home .info button{
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 30px;
+    background-color: #ee626b;
+    width: 30%;
+}
+.home .image{
+    width: 400px;
+    height: 500px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-image: url(http://127.0.0.1:5501/templatemo_589_lugx_gaming/templatemo_589_lugx_gaming/assets/images/banner-image.jpg);
+    /* border: 2px solid red; */
+    /* background-color: red; */
+}
+.home .prize{
+    height: 28px;
+    width: 50px;
+    background-color: #007aff;
+    text-align: center;
+    border-radius: 30px;
+    padding: 3px 10px; 
+    margin-left: 75%;
+    margin-top: 20px;
+    font-weight: 800;
+    font-size: 20px;
+}
+.home .sale{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    background-color: #ee626b;
+    position: absolute;
+    bottom:-30px;
+    left: -30px;
+    font-size: 30px;
+    font-weight: 700;
+}
+main .storagecard{
+    display: flex;
+    width: 86%;
+    margin: 100px 7%;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+}
+main .storagecard .cardst{
+    /* border: 2px solid black; */
+    box-shadow: 2px 2px 4px lightgray;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main .cardst .imgdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #0071f8;
+    margin-bottom: 10px;
+}
+main .cardst p{
+    color: black;
+    font-weight: bold;
+}
+.storagecard .cardst:hover .imgdiv{
+    background-color: #ee626b;
 }
 
 
