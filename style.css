@@ -85,9 +85,10 @@ nav .navright .signin{
 .home .info .input{
     margin-top: 70px;
     background-color: white;
+    /* border: 2px solid black; */
     width: 70%;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     height: 50px;  
     border-radius: 30px;
     
@@ -120,6 +121,7 @@ nav .navright .signin{
     /* border: 2px solid red; */
     /* background-color: red; */
 }
+
 .home .prize{
     height: 28px;
     width: 50px;
@@ -166,6 +168,7 @@ main .storagecard .cardst{
     justify-content: center;
     align-items: center;
 }
+
 main .cardst .imgdiv{
     display: flex;
     justify-content: center;
@@ -182,6 +185,68 @@ main .cardst p{
 }
 .storagecard .cardst:hover .imgdiv{
     background-color: #ee626b;
+}
+
+.midbody{
+    width: 100%;
+    height: 200vh;
+    /* background-color: black; */
+    margin-top: 200px;
+}
+.midbody .card2div{
+    width: 80%;
+    /* background-color: black; */
+    margin: 0px 10%;
+}
+.card2div > p{
+    color: #ee626b;
+    font-weight: 500;
+}
+.card2div .trend h1{
+    color: black;
+}
+.card2div .trend{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.card2div .trend a{
+    padding: 10px 30px;   
+    background-color: #ee626b;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+}
+.card2div .divcard{
+    display: flex;
+    margin-top: 70px;
+    gap: 1%;
+    width: 100%;
+}
+.card2div .divcard .card{
+    width: 40%;
+    height: 300px;
+    background-color: grey;
+    border-radius: 30px;
+}
+.card2div .divcard .img{
+    width: 100%;
+    height: 70%;
+    border-radius: 30px;
+}
+.card2div .divcard .img1{
+    background-image: url(./trending-01.jpg);
+}
+.card2div .divcard .img2{
+    background-image: url(./trending-02.jpg);
+}
+.card2div .divcard .img3{
+    background-image: url(./trending-03.jpg);
+}
+.card2div .divcard .img4{
+    background-image: url(./trending-04.jpg);
 }
 
 
