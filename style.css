@@ -211,7 +211,7 @@ main .cardst p{
     margin-top: 20px;
 }
 .card2div .trend a{
-    padding: 10px 30px;   
+    padding: 12px 30px;   
     background-color: #ee626b;
     border-radius: 50px;
     color: white;
@@ -227,14 +227,19 @@ main .cardst p{
 }
 .card2div .divcard .card{
     width: 40%;
-    height: 300px;
-    background-color: grey;
+    height: 320px;
+    background-color: rgb(231, 230, 230);
     border-radius: 30px;
 }
 .card2div .divcard .img{
     width: 100%;
-    height: 70%;
+    height: 65%;
     border-radius: 30px;
+    padding-top: 20px;
+    background-size: cover;
+}
+.card2div .divcard .prize{
+    margin-left: 70%;
 }
 .card2div .divcard .img1{
     background-image: url(./trending-01.jpg);
@@ -249,5 +254,56 @@ main .cardst p{
     background-image: url(./trending-04.jpg);
 }
 
+.divcard .card>p{
+    color: grey;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+.divcard .card .purchase p{
+    color: black;
+    margin-left: 20px;
+    font-weight: 600;
+}
+.divcard .card .purchase{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    /* border: 2px solid black; */
 
+}
+.divcard .card .purchase .icon{
+    width: 40px;
+    height: 40px;
+    background-color: #ee626b;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-top: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.divcard .card .prize{
+    width: 55px;
+    padding: 7px 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #007aff;
+}
+.divcard .card del{
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.divcard .card:hover .purchase>p{
+    color: #007aff;
+}
+.divcard .card:hover .icon{
+    background-color: #007aff;
+}
+.card2div .trend a:hover{
+    background-color: #007aff;
+}
